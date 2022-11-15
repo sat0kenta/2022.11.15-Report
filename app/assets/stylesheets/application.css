@@ -1,0 +1,203 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+nav {
+  width: 880px;
+  margin: 0 auto;
+  border-top: solid 0.7px #000000;
+  border-bottom: solid 0.7px #000000;
+}
+
+.nav-book {
+  text-align: center;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+
+.nav-book-item {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+main {
+  width: 800px;
+  display: block;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.book-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.book-box {
+  width: 200px;
+  height: 250px;
+  margin: 10px;
+}
+
+.book-comment {
+  width: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+
+  .nav-list {
+    width: 100%;
+  }
+
+  .nav-list-item {
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
+
+  .social {
+    display: none;
+  }
+
+  .main-visual-content {
+    width: 100%;
+  }
+
+  main {
+    width: 100%;
+    display: block;
+  }
+
+  .blog {
+    width: 100%;
+    margin: 0;
+  }
+
+  .blog-box {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .blog-image {
+    width: 49%;
+  }
+
+  .blog-text {
+    width: 49%;
+    padding-top: 5px;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+
+  .sidebar-contents {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  .instagram-box {
+    width: 48%;
+    padding-top: 48%;
+  }
+
+  .instagram-box:nth-child(odd) {
+    margin-right: 4%;
+  }
+
+  .pagination {
+    margin-bottom: 50px;
+  }
+}
+
+
+@media screen and (max-width: 425px) {
+  header {
+    width: 100%;
+  }
+
+  .nav-list {
+    width: 100%;
+  }
+
+  .nav-list-item {
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
+
+  .social {
+    display: none;
+  }
+
+  .main-visual-content {
+    width: 100%;
+  }
+
+  main {
+    width: 100%;
+    display: block;
+  }
+
+  .blog {
+    width: 100%;
+    margin: 0;
+  }
+
+  .blog-box {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .blog-image {
+    width: 49%;
+  }
+
+  .blog-text {
+    width: 49%;
+    padding-top: 5px;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+
+  .sidebar-contents {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  .instagram-box {
+    width: 48%;
+    padding-top: 48%;
+  }
+
+  .instagram-box:nth-child(odd) {
+    margin-right: 4%;
+  }
+
+  .pagination {
+    margin-bottom: 50px;
+  }
+}
